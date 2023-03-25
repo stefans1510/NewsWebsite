@@ -1,0 +1,12 @@
+<input id="search-bar" type="text" [(ngModel)]="query" (input)="search()" placeholder="Search news...">
+<div *ngFor="let article of articles">
+    <div id="search-result">
+        <a href="{{ article.url }}">
+            <b>
+                <p>{{ article.title }}</p>
+            </b>
+        </a>
+        <hr>
+    </div>
+    
+</div>
