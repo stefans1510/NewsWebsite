@@ -11,6 +11,8 @@ import { SportsNewsComponent } from './sports-news/sports-news.component';
 import { PoliticsNewsComponent } from './politics-news/politics-news.component';
 import { BusinessNewsComponent } from './business-news/business-news.component';
 import { SearchNewsComponent } from './search-news/search-news.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { SearchNewsComponent } from './search-news/search-news.component';
     SportsNewsComponent,
     PoliticsNewsComponent,
     BusinessNewsComponent,
-    SearchNewsComponent
+    SearchNewsComponent,
+    RegistrationComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
